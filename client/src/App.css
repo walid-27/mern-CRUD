@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: linear-gradient(to right, #fff, rgb(70, 57, 250));
+}
+ul{
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+li{
+  list-style: none;
+}
