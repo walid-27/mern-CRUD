@@ -4,7 +4,7 @@ const cors = require("cors")
 const ProductModel = require("./Models/Products")
 const mongoose = require("mongoose");
 const multer = require("multer");
-mongoose.connect("mongodb+srv://usmaali043j_db_user:CGoo6FKbzbX0NzPI@products.2jy0npl.mongodb.net/")
+mongoose.connect("mongodb://localhost:27017")
 app.use(cors())
 app.use(express.json());
 app.use("/uploads", express.static("uploads"));
